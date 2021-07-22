@@ -3,42 +3,38 @@ html {
     height: 100%;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
-
+    background: white;
 }
+
 body {
-    width: 100%;
     border: 1px solid rgba(255, 0, 0, 0.767);
+    background-color: rgba(243, 157, 246, 0.082);
     color: rgb(21, 22, 19);
-    margin:auto;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+    
 }
-
-
 
 aside {
     background: rgba(243, 176, 217, 0.383);
     color:rgb(25, 56, 37);
-    padding: 57px;
-    width: 400px;
-    float: right;
+    padding: 50px;
+    width: 18em;
     text-align: center;
-    
-}
-
-body {
-    background: rgba(249, 166, 131, 0.18);
-   
+    float: right; 
 }
 
 .photo{
-    width: 250px;
-    height: 350px;
-    
+    width: 280px;
+    height: 350px;  
 }
 
 .footer-img {
     width: 200px;
 }
+
 mark {
     background-color: rgba(223, 150, 150, 0.329);
     color: rgb(206, 22, 22);
