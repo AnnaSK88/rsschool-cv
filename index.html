@@ -6,75 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV AnnaSK</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
  </head>
  <body>
-    <header class="header">
-        <h1>Anna SK</h1>
-    </header>
-    <aside>
-        <figure>
-            <img class="photo" src="../rsschool-cv/myPhoto.JPG" alt="AnnaSK">
-            <figcaption><em>Nice to meet you!</em></figcaption>
-        </figure>
+    <div class ="container-center">
+        <header>
+            <img src="/src/img/Me.jpg" alt="AnnaSK">
+            <h1>Anna SK </h1>
+            <h2>Junior Frontend Developer</h2>
+        </header>
+        <div class ="container-two">
+            <aside class="left-side">
+                <h4> Contacts</h4>
+                <div class="contact">
+                    <ul>
+                        <li>email: anna.sapun89@gmail.com</li>
+                        <li>location: Netherlands</li>
+                    </ul>
+                </div>
+               
+                <section class="skills">
+                    <h4>Skills</h4>
+                    <div class="skills">
+                            <ul>
+                                <li class="skills-it">HTML</li>
+                                <li class="skills-it">CSS</li>
+                                <li class="skills-it">Java Script</li>
+                           </ul>
+                    </div>
+                </section>
+               
+            </aside>
+            <main class="right-side">
+                <div class ="information">
+                    <section class="profile">
+                        <h3>About Me</h3> 
+                        <p class="goal"> In one day I decided to change my life: country, profession. For this course I would like to enrich my knowledge with practical skills and to find job. The responsible, creative, and high level of my communication are my main strong activities.</p>
+                    </section>
 
-        <h3> Contacts</h3>
-        <div class="contact">
-            <ul>
-                <li>email:  anna.sapun89@gmail.com</li>
-                <li>location:  The Netherlands</li>
-            </ul>
+                    <section class="education">
+                        <h3> Education</h3>
+                        <div class ="self-educ">
+                            <p>2007- 2012 Belarusian State Economic University, financial and banking</p>
+                        </div>
+                    </section>
+                    <section class="languages">
+                        <h3>Languages</h3>
+                        <ul class="international">
+                            <li><img src="/src/png/rus.jpg" alt="russian"> rus - Native</li>
+                            <li><img src="/src/png/eng.jpg" alt="English"> eng - B1</li>
+                            <li><img src="/src/png/NL.jpg" alt="Dutch"> dutch- A2</li>
+                        </ul>  
+                    </section>
+                    <section class="courses">
+                        <h3>Courses</h3>
+                        <div class="knowledge">
+                            <ul>
+                                <li><a href="https://github.com/AnnaSK88/self-education-IT" target="_blank" style="text-decoration: none;">09.2020 - self-education IT</a></li>
+                                <li>3q2021 - RS Schools "JavaScript/Front-end. Stage0"</li>
+                            </ul>
+                        </div>
+        
+                    </section>
+
+                    <section class="examples">
+                        <h3> Code example</h3>
+                        <p>Codewars: <a href="https://www.codewars.com/kata/jaden-casing-strings" target="_blank"> Jaden Casing Strings </a></p>
+                        <pre><code class ="html">
+            String.prototype.toJadenCase = function () {
+                return str.split(' ')
+                          .map(el=> el[0].toUpperCase() + el.slice(1))
+                          .join(" ")
+                }</code></pre>
+                    </section>
+
+                </div>    
+            </main>
         </div>
-        <details>
-            <summary>My Motto</summary>
-            <blockquote><mark>NEVER GIVE UP!</mark></blockquote>
-        </details>
-    </aside>
-
-    <main>
-        <section>
-                <h4>Profile</h4> 
-                <p class="goal"> In one day I decided to change my life: country, profession. For this course I would like to enrich my knowledge with practical skills and to find job. The responsible, creative, and high level of my communication are my main strong activities.</p>
-        </section>
-        <article class="skills">
-            <h2>Skills</h2>
-            <div class="skills">
-                <ul id="skills-it">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Java Script</li>
-                 </ul>
+        <footer class="main-link">
+            <div class="myGitHub">
+                <a class="my-github" href="https://github.com/AnnaSK88" target="_blank">
+                    <img class="github-icon" src="/src/png/github.jpeg" alt="Github">
+                  </a>
             </div>
-        </article>
-        
-        <article class="examples">
-            <h3> Examples of my work</h3>
-            <p><a href="https://github.com/AnnaSK88">Check My Github page</a> </p>
-        </article>
-        
-        <article class="education>">
-            <h2> <strong>Education</strong></h2>
-    <pre>
-    * 2007- 2012 Belarusian State Economic University, financial and banking
-    * 09/2020 - self-education IT
-    </pre>
-        </article>
-            
-        <article class="languages">
-            <h2>Languages</h2>
-                <ol id="international">
-                    <li>Russian, Belarusian - Native</li>
-                    <li>English - Intermediate</li>
-                    <li>Dutch- Elementary</li>
-                </ol>         
-        </article>
-       
-    </main>
-    
-    <footer class="footer">
-        <nav>
-            <p><a href="https://github.com/AnnaSK88">Github</a> 2021 </p> 
-               <a href="https://rs.school/js/"><img class="footer-img" src="../rsschool-cv/download.png" alt="rsschool-icon"></a>
-        </nav>         
-    </footer>
+            <h6>© 2021</h6>
+            <div class="rssscool">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img id="rsschool" src="/src/png/rs.png" alt="Rsschool">
+                </a>
+            </div>
+          </footer>
+                    
+    </div>
  </body>
 </html>
