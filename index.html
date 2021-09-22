@@ -14,6 +14,15 @@
  <body>
     <div class ="container-center">
         <header>
+            <div class="burger-menu">
+                <ul class="menu">
+                    <li class="disc-menu"><a href="#profile">Profile</a></li>
+                    <li class="disc-menu"><a href="#educ">Education</a></li>
+                    <li class="disc-menu"><a href="#lang">Language</a></li>
+                    <li class="disc-menu"><a href="#course">Course</a></li>
+                    <li class="disc-menu"><a href = "#code">Code</a></li>
+                </ul>
+            </div>
             <img src="/src/img/Me.jpg" alt="AnnaSK">
             <h1>Anna SK </h1>
             <h2>Junior Frontend Developer</h2>
@@ -22,7 +31,7 @@
             <aside class="left-side">
                 <h4> Contacts</h4>
                 <div class="contact">
-                    <ul>
+                    <ul class="first">
                         <li>email: anna.sapun89@gmail.com</li>
                         <li>location: Netherlands</li>
                     </ul>
@@ -42,18 +51,18 @@
             </aside>
             <main class="right-side">
                 <div class ="information">
-                    <section class="profile">
+                    <section class="profile" id="profile">
                         <h3>About Me</h3> 
                         <p class="goal"> In one day I decided to change my life: country, profession. For this course I would like to enrich my knowledge with practical skills and to find job. The responsible, creative, and high level of my communication are my main strong activities.</p>
                     </section>
 
-                    <section class="education">
+                    <section class="education" id="educ">
                         <h3> Education</h3>
                         <div class ="self-educ">
                             <p>2007- 2012 Belarusian State Economic University, financial and banking</p>
                         </div>
                     </section>
-                    <section class="languages">
+                    <section class="languages" id="lang">
                         <h3>Languages</h3>
                         <ul class="international">
                             <li><img src="/src/png/rus.jpg" alt="russian"> rus - Native</li>
@@ -61,7 +70,7 @@
                             <li><img src="/src/png/NL.jpg" alt="Dutch"> dutch- A2</li>
                         </ul>  
                     </section>
-                    <section class="courses">
+                    <section class="courses" id="course">
                         <h3>Courses</h3>
                         <div class="knowledge">
                             <ul>
@@ -72,7 +81,7 @@
         
                     </section>
 
-                    <section class="examples">
+                    <section class="examples" id="code">
                         <h3> Code example</h3>
                         <p>Codewars: <a href="https://www.codewars.com/kata/jaden-casing-strings" target="_blank"> Jaden Casing Strings </a></p>
                         <pre><code class ="html">

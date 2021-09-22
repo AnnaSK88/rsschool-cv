@@ -1,6 +1,25 @@
 html {
     scroll-behavior: smooth;
 }
+
+.menu{
+
+    list-style: none;
+    display: flex;
+    margin: 40px 20px 50px;
+}
+.disc-menu{
+    padding-left: 70px;
+    font-size: 20px;
+
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:rgba(55, 11, 97, 0.925);
+}
+
+a:hover {
+    color: purple;
+}
 .container-center {
     margin: 20px auto;
     width: 1200px;
@@ -33,8 +52,8 @@ header h2 {
     letter-spacing: 2px;
 }
 header img {
-    width: 283px;
-    height: 340px;
+    width: 260px;
+    height: 335px;
     margin-bottom: 10px;
     border: 14px solid rgba(111, 104, 119, 0.582);
     border-radius: 50%;
@@ -53,9 +72,27 @@ header img {
   
   
 }
+
+.first  {
+    list-style: none;
+    padding: 0;
+    }
+.first li {
+    padding: 10px 30px;
+    background: linear-gradient(to left, #344f726b 0%, white, #8daaf869);
+    border-bottom: 1px solid grey;
+    color: #506a6b;
+    font-size: 16px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+    margin-bottom: 5px;
+}
+.first li:last-child {
+        border-bottom: none;
+}
+
 .contact li {
-   padding-top: 25px;
-   font-size: 20px;
+   padding-top: 30px;
+   font-size: 25px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -70,10 +107,18 @@ h4 {
     color: rgba(44, 95, 189, 0.842);
 }
 
+
 .skills-it {
+    padding: 10px;
     list-style: square;
-    font-size: 14px;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:rgba(45, 23, 97, 0.925);
+    text-shadow:  1px 3px 0 rgba(105, 69, 189, 0.534);
 }
+
 
 /*rigth-side*/
 .right-side {
@@ -84,8 +129,8 @@ h4 {
 .information {
  display: flex;
  flex-direction: column;
- margin-left: 20px;
- padding: 20px 40px;
+ margin-left: 15px;
+ padding: 10px;
  text-align: justify;
 }
 
