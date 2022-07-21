@@ -1,4 +1,4 @@
-html {
+body {
     scroll-behavior: smooth;
 }
 
@@ -27,7 +27,7 @@ a:hover {
     font-size: 18px;
     line-height: 1.5;
     background-color: #ffffff;
-    box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+    box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 123%);
 }
 
 
@@ -52,7 +52,7 @@ header h2 {
     letter-spacing: 2px;
 }
 header img {
-    width: 260px;
+    width: 244px;
     height: 335px;
     margin-bottom: 10px;
     border: 14px solid rgba(111, 104, 119, 0.582);
